@@ -2,7 +2,7 @@
 
 筛选出优质的Cloudflare IP（目前在暂不开源，以接口方式提供15分钟更新一次），并使用域名服务商提供的API解析到不同线路以达到网站加速的效果（目前只完成DNSPod，后续如果有需求将会加入其他运营商的）。
 
-**详细的使用场景请移步我的[小站](https://hostmonit.com/cloudflare-select-ip-plus/)**
+**详细的使用场景请移步我的[小站](https://fmvp.cc)**
 
 ### 适用人群
 
@@ -14,7 +14,7 @@
 
 >  必要条件: 
 >
-> ★ Cloudflare自选IP并已接入到DNSPod，不知道怎么自选IP可以查看这个[教程](https://hostmonit.com/manually-select-ip/)
+> ★ Cloudflare自选IP并已接入到DNSPod，不知道怎么自选IP可以查看这个[教程](https://fmvp.cc)
 >
 > ★ Python3、pip环境
 
@@ -59,7 +59,7 @@ pip install urllib3
 
 4. 修改脚本中域名配置信息，可配置多个域名和多个子域名
 
-5. (可选)从[商店](https://shop.hostmonit.com)购买KEY，当然也可以用脚本中自带的，区别是脚本中自带的KEY是历史优选的Cloudflare IP(也可以从这个[网站](https://stock.hostmonit.com/CloudFlareYes)查到IP的信息)，而购买的KEY是15分钟内获取到的最新的Cloudflare IP。
+5. (可选)从[商店](http://fmvp.cc)购买KEY，当然也可以用脚本中自带的，区别是脚本中自带的KEY是历史优选的Cloudflare IP(也可以从这个[网站](http://fmvp.cc)查到IP的信息)，而购买的KEY是15分钟内获取到的最新的Cloudflare IP。
 
 6. 运行程序，如果能够正常运行可以选择cron定时执行(建议15分钟执行一次)
 
